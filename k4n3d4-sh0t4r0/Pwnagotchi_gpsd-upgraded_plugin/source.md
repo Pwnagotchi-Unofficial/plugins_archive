@@ -1,0 +1,1 @@
+Original URL: https://github.com/k4n3d4-sh0t4r0/Pwnagotchi_gpsd-upgraded_plugin

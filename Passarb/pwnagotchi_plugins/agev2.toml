@@ -1,0 +1,9 @@
+main.plugins.agev2.enabled = False
+main.plugins.agev2.age_x_coord = 100
+main.plugins.agev2.age_y_coord = 120
+main.plugins.agev2.str_x_coord = 100
+main.plugins.agev2.str_y_coord = 130
+main.plugins.agev2.ap_x_coord = 100
+main.plugins.agev2.ap_y_coord = 140
+main.plugins.agev2.deauth_x_coord = 100
+main.plugins.agev2.deauth_y_coord = 150
