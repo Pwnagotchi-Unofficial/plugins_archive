@@ -1,0 +1,6 @@
+xp:
+  enabled: false
+  load_initial_xp: false
+  level_position: "10,30"
+  rank_position: "50,30"
+  progressbar_position: "20,40,103,44"

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pwnagotchi</title>
+
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="apple-touch-icon" href="/static/favicon/apple-touch-icon.png"/>
+
+        <link rel="stylesheet" type="text/css" href="/static/css/default.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+
+        <script type="text/javascript" src="/static/js/state-api.js?1"></script>
+    </head>
+
+    <body>
+        <div id="initialiser" class="gotchiinitialising">
+            [Getting ready]<br>
+            (ᴗ˳ᴗ)<br>
+            <div id="snore" style="display: inline" data-index=0 data-zeds=".zZ">.</div>
+        </div>
+
+        <div id="maindisplay" class="gotchicontainer" style="display:none">
+            <div class="headerbar flexible">
+                <div class="level" id="level"></div>
+                <div class="name" id="name"></div>
+                <div class="exp" id="exp"></div>
+                <div class="padder">
+                    <span id="mail"></span>
+                </div>
+                <div>
+                    <span class="uptime" id="uptime"></span>
+                </div>
+            </div>
+            <div class="mainarea flexible">
+                <div class="faces">
+                    <div class="face" id="face"></div>
+                    <div class="friendarea">
+                        <div class="friend_face_text" id="friend_face_text"></div>
+                        <div class="friend_name_text" id="friend_name_text"></div>
+                    </div>
+                </div>
+                <div class="status" id="status">
+                    <ul id="logs"></ul>
+                </div>
+            </div>
+            <div class="systemarea flexible">
+                <div>
+                    <span class="title">UPS:</span><span id="ups"></span>
+                </div>
+                <div>
+                    <span class="title">CPU:</span><span id="cpu"></span>
+                </div>
+                <div>
+                    <span class="title">Mem:</span><span id="memory"></span>
+                </div>
+                <div>
+                    <span id="temperature"></span>
+                </div>
+                <div>
+                    <span class="bluetooth_char">&#5842;</span><span id="bluetooth"></span>
+                </div>
+                <div class="padder"></div>
+                <div>
+                    <span class="mode title" id="mode"></span>
+                </div>
+            </div>
+            <div class="lowerarea flexible">
+                <div>
+                    <span class="title">CH:</span><span class="channel" id="channel" ></span>
+                </div>
+                <div>
+                    <span class="title">APs:</span><span class="aps" id="aps"></span>
+                </div>
+
+                <div>
+                    <span class="title">Pwnd:</span><span class="shakes" id="shakes"></span>
+                </div>
+            </div>
+        </div>
+        <script>
+            window.onload = function() {
+                pwnagotchi.stateRetrieval.initialise(pwnagotchi.populateDisplay);
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+main.plugins.upload.enabled = false
+main.plugins.upload.api_key = ""
+main.plugins.upload.api_url = "https://wpa-sec.stanev.org"
+main.plugins.upload.download_results = false
+main.plugins.upload.whitelist = [] 
+# whitelist hasn´t been tested so be careful

@@ -1,0 +1,3 @@
+warwalking_trails_kml_single:
+  enabled: false
+  kml_path: "/home/pi/"

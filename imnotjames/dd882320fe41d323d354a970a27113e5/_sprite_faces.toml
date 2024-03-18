@@ -1,0 +1,4 @@
+# Include in your conf.d
+
+main.plugins.sprite_faces.sprites.face.path = '/etc/pwnagotchi/pikachu.png'
+main.plugins.sprite_faces.sprites.face.size = 64

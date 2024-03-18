@@ -1,0 +1,1 @@
+Original URL: https://github.com/rai68/gpsd-easy

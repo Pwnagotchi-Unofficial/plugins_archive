@@ -1,0 +1,1 @@
+Original URL: https://github.com/Lehniii/discord-notify-plugin-pwnagotchi

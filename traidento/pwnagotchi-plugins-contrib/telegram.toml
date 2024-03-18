@@ -1,0 +1,5 @@
+main.plugins.telegram.enabled = false
+main.plugins.telegram.bot_token = "12345678:AABBCCDDEEFF112233445566"
+main.plugins.telegram.chat_id = -44000
+main.plugins.telegram.send_picture = true
+main.plugins.telegram.send_message = true
